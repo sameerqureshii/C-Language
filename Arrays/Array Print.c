@@ -2,8 +2,8 @@
 
 int main(){
 	int i;
-    char* car[5] = {"Volve", "BMW", "Ford", "Mazda", "Tesla"};
-    car[2] = "Civic";
+    char* car[5] = {"Volve", "BMW", "Ford", "Dodge", "Ferrari"};
+    car[2] = "Audi";
 
     for(i = 0; i < 5; i++){
         printf("%s\n", car[i]);
@@ -14,6 +14,6 @@ int main(){
 //Output:
 //Volve
 //BMW
-//Civic
-//Mazda
-//Tesla
+//Audi
+//Dodge
+//Ferrari 
